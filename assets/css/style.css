@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+.banner {
+    color: white;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.banner-content {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    background-color: rgb(15, 15, 47);
+    background-image: url(../images/banner.png);
+    box-shadow: inset 0 0 3em black;
+}
+
+button {
+    font-size: 15px;
+    color: white;
+    background-color:transparent;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 60px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+}
+
+#course-content {
+    height: 500px;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.modules-list {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.module {
+    line-height: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 1%;
+    margin: 1%;
+    background-color: transparent;
+}
